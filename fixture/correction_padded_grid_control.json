@@ -1,0 +1,30 @@
+{
+  "vc_pointcollections_json_version": "1",
+  "collections": {
+    "1": {
+      "name": "Single CT anchor",
+      "anchor2d": [
+        63,
+        44
+      ],
+      "points": {
+        "1": {
+          "p": [
+            4433.217994905682,
+            3040.7019128845404,
+            5595.19775390625
+          ],
+          "wind_a": null
+        }
+      },
+      "metadata": {
+        "winding_is_absolute": true
+      },
+      "color": [
+        0.2,
+        0.8,
+        1.0
+      ]
+    }
+  }
+}
