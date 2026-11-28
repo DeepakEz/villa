@@ -146,9 +146,19 @@ void SurfaceStoreEdit::save(QuadSurface& surface, const cv::Rect& rect, const st
             const std::vector<uint8_t>* replaced = nullptr;
             if (!channels.empty()) {
                 auto op = quad_channels_operation(_uuid, surface, channels, {}, points.rows, points.cols);
+                // The store rejects relationship decisions on a no-op geometry write, so drop channels
+                // that are byte-identical to the pinned revision. Channels are written untransformed here.
+                std::erase_if(op.channels, [&](const auto& channel) {
+                    const auto current = std::find_if(revision->arrays.begin(), revision->arrays.end(),
+                        [&](const auto& array) { return array.name == channel.name; });
+                    return current != revision->arrays.end()
+                        && current->dtype == channel.dtype
+                        && current->shape == channel.shape
+                        && reader.readGeometryArray(revision->uuid, channel.name) == channel.bytes;
+                });
                 for (const auto& array : op.channels)
                     if (array.name == "valid") { validity = array.bytes; replaced = &validity; }
-                request.operations.push_back(std::move(op));
+                if (!op.channels.empty()) request.operations.push_back(std::move(op));
             }
             const auto view = transformed ? *transformed : snapshot.viewStored(_uuid, *_pin.geometryRevision);
             if (auto edit = quad_rect_edit(view, surface, rect, replaced)) request.operations.push_back(std::move(*edit));
