@@ -1,6 +1,6 @@
 # Evidence for the VC3D save/export fix (skip unchanged surface channels)
 
-Replay of one correction drag in VC3D on two public scans. It compares the editor on Villa `main` (`ee9198c`) with the
+Replay of one correction drag in VC3D on two public scans. It compares the editor on Villa `main` (`ad0f864`, after ScrollPrize/villa#2563) with the
 same build plus the one-file fix (`SurfaceStoreEdit.cpp`). Both editors come from the same tree and load the same
 tracer library.
 

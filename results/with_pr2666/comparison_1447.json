@@ -32,7 +32,7 @@
     "solver": {
       "consoleTail": [],
       "externalId": null,
-      "finishedAtMs": 1795851844742,
+      "finishedAtMs": 1795867592087,
       "jobId": "job-3",
       "kind": "growth.external",
       "label": "Segmentation growth started",
@@ -61,13 +61,13 @@
       ],
       "result": null,
       "source": "growth",
-      "startedAtMs": 1795851844624,
+      "startedAtMs": 1795867591985,
       "state": "succeeded"
     },
     "save": {
       "consoleTail": [],
       "externalId": null,
-      "finishedAtMs": 1795851845002,
+      "finishedAtMs": 1795867592348,
       "jobId": "job-4",
       "kind": "segmentation.save",
       "label": "Save segment",
@@ -96,7 +96,7 @@
       ],
       "result": null,
       "source": "autosave",
-      "startedAtMs": 1795851844935,
+      "startedAtMs": 1795867592300,
       "state": "failed"
     },
     "save_screenshot": {
@@ -113,24 +113,24 @@
     "history_after_export": {
       "geometry": [
         [
-          "231679E20CEB4CC98B8455F483E9FCF5",
+          "8F571602021D4D44895269E15BD46C0C",
           "",
           "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
           1
         ],
         [
-          "723561E0A9234FC0A93005D9E9ADFC15",
-          "231679E20CEB4CC98B8455F483E9FCF5",
-          "FB91BF45B9855D66F8DA3972F2E696A8751794509F133949BD2ED36F836F15C6",
+          "1422564D779C41C48A3D83BF7F86E49D",
+          "8F571602021D4D44895269E15BD46C0C",
+          "97A2ED0B4CB266E5FC303D3EB65232BE30B4B04F5A7A47F2C18382466F34C3B6",
           2
         ]
       ],
       "owner_version": 4,
       "corrections": [
         {
-          "edge_id": "EF974322D5524C14A4D2DA9E003B6187",
+          "edge_id": "7344903A5E4649D4924CD586D5843FED",
           "edge_version": 1,
-          "collection_id": "77ECEE0209FE47F0A3EAFB299DC45413",
+          "collection_id": "16449ED7A4BD434E9B3BF15FA1ED2760",
           "collection_version": 1,
           "anchor": [
             43.0,
@@ -140,13 +140,13 @@
       ],
       "growth_annotations": [
         {
-          "edge_id": "BF2DC6A774FF49728C0AB94B15BC6A49",
+          "edge_id": "CF06A1BB183649CF8211034739155131",
           "edge_version": 1,
-          "collection_id": "59114ADEF8C24BED9140DF8B33BF80C8",
+          "collection_id": "DC59430F6C1B443F8492A4D58CC46DEC",
           "collection_version": 1,
           "provenance": {
-            "after_geometry": "723561e0-a923-4fc0-a930-05d9e9adfc15",
-            "before_geometry": "231679e2-0ceb-4cc9-8b84-55f483e9fcf5",
+            "after_geometry": "1422564d-779c-41c4-8a3d-83bf7f86e49d",
+            "before_geometry": "8f571602-021d-4d44-8952-69e15bd46c0c",
             "bounds": {
               "max": [
                 5591.609375,
@@ -174,7 +174,7 @@
     "repeat_save": {
       "consoleTail": [],
       "externalId": null,
-      "finishedAtMs": 1795851846387,
+      "finishedAtMs": 1795867593751,
       "jobId": "job-5",
       "kind": "segmentation.save",
       "label": "Save segment",
@@ -203,30 +203,30 @@
       ],
       "result": null,
       "source": "autosave",
-      "startedAtMs": 1795851846339,
+      "startedAtMs": 1795867593702,
       "state": "failed"
     },
     "history_after_repeat_save": {
       "geometry": [
         [
-          "231679E20CEB4CC98B8455F483E9FCF5",
+          "8F571602021D4D44895269E15BD46C0C",
           "",
           "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
           1
         ],
         [
-          "723561E0A9234FC0A93005D9E9ADFC15",
-          "231679E20CEB4CC98B8455F483E9FCF5",
-          "FB91BF45B9855D66F8DA3972F2E696A8751794509F133949BD2ED36F836F15C6",
+          "1422564D779C41C48A3D83BF7F86E49D",
+          "8F571602021D4D44895269E15BD46C0C",
+          "97A2ED0B4CB266E5FC303D3EB65232BE30B4B04F5A7A47F2C18382466F34C3B6",
           2
         ]
       ],
       "owner_version": 4,
       "corrections": [
         {
-          "edge_id": "EF974322D5524C14A4D2DA9E003B6187",
+          "edge_id": "7344903A5E4649D4924CD586D5843FED",
           "edge_version": 1,
-          "collection_id": "77ECEE0209FE47F0A3EAFB299DC45413",
+          "collection_id": "16449ED7A4BD434E9B3BF15FA1ED2760",
           "collection_version": 1,
           "anchor": [
             43.0,
@@ -236,13 +236,13 @@
       ],
       "growth_annotations": [
         {
-          "edge_id": "BF2DC6A774FF49728C0AB94B15BC6A49",
+          "edge_id": "CF06A1BB183649CF8211034739155131",
           "edge_version": 1,
-          "collection_id": "59114ADEF8C24BED9140DF8B33BF80C8",
+          "collection_id": "DC59430F6C1B443F8492A4D58CC46DEC",
           "collection_version": 1,
           "provenance": {
-            "after_geometry": "723561e0-a923-4fc0-a930-05d9e9adfc15",
-            "before_geometry": "231679e2-0ceb-4cc9-8b84-55f483e9fcf5",
+            "after_geometry": "1422564d-779c-41c4-8a3d-83bf7f86e49d",
+            "before_geometry": "8f571602-021d-4d44-8952-69e15bd46c0c",
             "bounds": {
               "max": [
                 5591.609375,
@@ -277,24 +277,24 @@
     "history_after_reopen": {
       "geometry": [
         [
-          "231679E20CEB4CC98B8455F483E9FCF5",
+          "8F571602021D4D44895269E15BD46C0C",
           "",
           "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
           1
         ],
         [
-          "723561E0A9234FC0A93005D9E9ADFC15",
-          "231679E20CEB4CC98B8455F483E9FCF5",
-          "FB91BF45B9855D66F8DA3972F2E696A8751794509F133949BD2ED36F836F15C6",
+          "1422564D779C41C48A3D83BF7F86E49D",
+          "8F571602021D4D44895269E15BD46C0C",
+          "97A2ED0B4CB266E5FC303D3EB65232BE30B4B04F5A7A47F2C18382466F34C3B6",
           2
         ]
       ],
       "owner_version": 4,
       "corrections": [
         {
-          "edge_id": "EF974322D5524C14A4D2DA9E003B6187",
+          "edge_id": "7344903A5E4649D4924CD586D5843FED",
           "edge_version": 1,
-          "collection_id": "77ECEE0209FE47F0A3EAFB299DC45413",
+          "collection_id": "16449ED7A4BD434E9B3BF15FA1ED2760",
           "collection_version": 1,
           "anchor": [
             43.0,
@@ -304,13 +304,13 @@
       ],
       "growth_annotations": [
         {
-          "edge_id": "BF2DC6A774FF49728C0AB94B15BC6A49",
+          "edge_id": "CF06A1BB183649CF8211034739155131",
           "edge_version": 1,
-          "collection_id": "59114ADEF8C24BED9140DF8B33BF80C8",
+          "collection_id": "DC59430F6C1B443F8492A4D58CC46DEC",
           "collection_version": 1,
           "provenance": {
-            "after_geometry": "723561e0-a923-4fc0-a930-05d9e9adfc15",
-            "before_geometry": "231679e2-0ceb-4cc9-8b84-55f483e9fcf5",
+            "after_geometry": "1422564d-779c-41c4-8a3d-83bf7f86e49d",
+            "before_geometry": "8f571602-021d-4d44-8952-69e15bd46c0c",
             "bounds": {
               "max": [
                 5591.609375,
@@ -369,7 +369,7 @@
     "solver": {
       "consoleTail": [],
       "externalId": null,
-      "finishedAtMs": 1795851848670,
+      "finishedAtMs": 1795867595906,
       "jobId": "job-3",
       "kind": "growth.external",
       "label": "Segmentation growth started",
@@ -398,13 +398,13 @@
       ],
       "result": null,
       "source": "growth",
-      "startedAtMs": 1795851848579,
+      "startedAtMs": 1795867595823,
       "state": "succeeded"
     },
     "save": {
       "consoleTail": [],
       "externalId": null,
-      "finishedAtMs": 1795851848940,
+      "finishedAtMs": 1795867596153,
       "jobId": "job-4",
       "kind": "segmentation.save",
       "label": "Save segment",
@@ -433,7 +433,7 @@
       ],
       "result": null,
       "source": "autosave",
-      "startedAtMs": 1795851848890,
+      "startedAtMs": 1795867596105,
       "state": "succeeded"
     },
     "save_screenshot": {
@@ -453,24 +453,24 @@
     "history_after_export": {
       "geometry": [
         [
-          "EA617DB2DE464E949811709CF6A3D877",
+          "17F6D83238FC4FCAAED959CECFD2326B",
           "",
           "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
           1
         ],
         [
-          "3EE058DC04534319912707959EFAF11B",
-          "EA617DB2DE464E949811709CF6A3D877",
-          "FB91BF45B9855D66F8DA3972F2E696A8751794509F133949BD2ED36F836F15C6",
+          "950B1E99F84F40A498D9953543C8658B",
+          "17F6D83238FC4FCAAED959CECFD2326B",
+          "97A2ED0B4CB266E5FC303D3EB65232BE30B4B04F5A7A47F2C18382466F34C3B6",
           2
         ]
       ],
       "owner_version": 4,
       "corrections": [
         {
-          "edge_id": "5FD39767F6064C8AA8D574D1FC079744",
+          "edge_id": "FD48026E19CA4496B0A204B0BEFD1C0F",
           "edge_version": 1,
-          "collection_id": "3FC5BD2657A845339ACA6BC6FC72619A",
+          "collection_id": "A0BFE9A1CF5D4288913DA5AC79CA56C3",
           "collection_version": 1,
           "anchor": [
             43.0,
@@ -480,13 +480,13 @@
       ],
       "growth_annotations": [
         {
-          "edge_id": "4DB5107D059644AF9E965A06A888309E",
+          "edge_id": "581919B712FF430CBEA56F3521860B29",
           "edge_version": 1,
-          "collection_id": "5FC3390BB8EC4A5DB7650227C06680A2",
+          "collection_id": "5C8091782E094192A571434EC123D8AD",
           "collection_version": 1,
           "provenance": {
-            "after_geometry": "3ee058dc-0453-4319-9127-07959efaf11b",
-            "before_geometry": "ea617db2-de46-4e94-9811-709cf6a3d877",
+            "after_geometry": "950b1e99-f84f-40a4-98d9-953543c8658b",
+            "before_geometry": "17f6d832-38fc-4fca-aed9-59cecfd2326b",
             "bounds": {
               "max": [
                 5591.609375,
@@ -522,24 +522,24 @@
     "history_after_repeat_save": {
       "geometry": [
         [
-          "EA617DB2DE464E949811709CF6A3D877",
+          "17F6D83238FC4FCAAED959CECFD2326B",
           "",
           "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
           1
         ],
         [
-          "3EE058DC04534319912707959EFAF11B",
-          "EA617DB2DE464E949811709CF6A3D877",
-          "FB91BF45B9855D66F8DA3972F2E696A8751794509F133949BD2ED36F836F15C6",
+          "950B1E99F84F40A498D9953543C8658B",
+          "17F6D83238FC4FCAAED959CECFD2326B",
+          "97A2ED0B4CB266E5FC303D3EB65232BE30B4B04F5A7A47F2C18382466F34C3B6",
           2
         ]
       ],
       "owner_version": 4,
       "corrections": [
         {
-          "edge_id": "5FD39767F6064C8AA8D574D1FC079744",
+          "edge_id": "FD48026E19CA4496B0A204B0BEFD1C0F",
           "edge_version": 1,
-          "collection_id": "3FC5BD2657A845339ACA6BC6FC72619A",
+          "collection_id": "A0BFE9A1CF5D4288913DA5AC79CA56C3",
           "collection_version": 1,
           "anchor": [
             43.0,
@@ -549,13 +549,13 @@
       ],
       "growth_annotations": [
         {
-          "edge_id": "4DB5107D059644AF9E965A06A888309E",
+          "edge_id": "581919B712FF430CBEA56F3521860B29",
           "edge_version": 1,
-          "collection_id": "5FC3390BB8EC4A5DB7650227C06680A2",
+          "collection_id": "5C8091782E094192A571434EC123D8AD",
           "collection_version": 1,
           "provenance": {
-            "after_geometry": "3ee058dc-0453-4319-9127-07959efaf11b",
-            "before_geometry": "ea617db2-de46-4e94-9811-709cf6a3d877",
+            "after_geometry": "950b1e99-f84f-40a4-98d9-953543c8658b",
+            "before_geometry": "17f6d832-38fc-4fca-aed9-59cecfd2326b",
             "bounds": {
               "max": [
                 5591.609375,
@@ -591,24 +591,24 @@
     "history_after_reopen": {
       "geometry": [
         [
-          "EA617DB2DE464E949811709CF6A3D877",
+          "17F6D83238FC4FCAAED959CECFD2326B",
           "",
           "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
           1
         ],
         [
-          "3EE058DC04534319912707959EFAF11B",
-          "EA617DB2DE464E949811709CF6A3D877",
-          "FB91BF45B9855D66F8DA3972F2E696A8751794509F133949BD2ED36F836F15C6",
+          "950B1E99F84F40A498D9953543C8658B",
+          "17F6D83238FC4FCAAED959CECFD2326B",
+          "97A2ED0B4CB266E5FC303D3EB65232BE30B4B04F5A7A47F2C18382466F34C3B6",
           2
         ]
       ],
       "owner_version": 4,
       "corrections": [
         {
-          "edge_id": "5FD39767F6064C8AA8D574D1FC079744",
+          "edge_id": "FD48026E19CA4496B0A204B0BEFD1C0F",
           "edge_version": 1,
-          "collection_id": "3FC5BD2657A845339ACA6BC6FC72619A",
+          "collection_id": "A0BFE9A1CF5D4288913DA5AC79CA56C3",
           "collection_version": 1,
           "anchor": [
             43.0,
@@ -618,13 +618,13 @@
       ],
       "growth_annotations": [
         {
-          "edge_id": "4DB5107D059644AF9E965A06A888309E",
+          "edge_id": "581919B712FF430CBEA56F3521860B29",
           "edge_version": 1,
-          "collection_id": "5FC3390BB8EC4A5DB7650227C06680A2",
+          "collection_id": "5C8091782E094192A571434EC123D8AD",
           "collection_version": 1,
           "provenance": {
-            "after_geometry": "3ee058dc-0453-4319-9127-07959efaf11b",
-            "before_geometry": "ea617db2-de46-4e94-9811-709cf6a3d877",
+            "after_geometry": "950b1e99-f84f-40a4-98d9-953543c8658b",
+            "before_geometry": "17f6d832-38fc-4fca-aed9-59cecfd2326b",
             "bounds": {
               "max": [
                 5591.609375,
