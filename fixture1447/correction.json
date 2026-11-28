@@ -1,0 +1,30 @@
+{
+  "vc_pointcollections_json_version": "1",
+  "collections": {
+    "1": {
+      "name": "Fixed XY regression target",
+      "anchor2d": [
+        41,
+        14
+      ],
+      "points": {
+        "1": {
+          "p": [
+            5335.60927734375,
+            3072.673046875,
+            22023.912109375
+          ],
+          "wind_a": null
+        }
+      },
+      "metadata": {
+        "winding_is_absolute": true
+      },
+      "color": [
+        0.2,
+        0.8,
+        1.0
+      ]
+    }
+  }
+}

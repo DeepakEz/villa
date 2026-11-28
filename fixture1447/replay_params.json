@@ -1,0 +1,15 @@
+{
+  "generations": 1,
+  "grow_extra_cols": 0,
+  "grow_extra_rows": 0,
+  "grow_max_extra_cols": 0,
+  "grow_max_extra_rows": 0,
+  "grow_mode": "all",
+  "grow_steps": 0,
+  "growth_scale": 0,
+  "inpaint": false,
+  "normal_grid_level": 0,
+  "rewind_gen": -1,
+  "thread_limit": 1,
+  "voxelsize": 8.64
+}

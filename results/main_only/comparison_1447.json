@@ -1,0 +1,639 @@
+{
+  "before_save_fix": {
+    "unmodified_export_equal": true,
+    "drag": {
+      "button": "left",
+      "dragged": true,
+      "from": {
+        "scene": {
+          "x": 574,
+          "y": 234.5
+        },
+        "volumePoint": {
+          "x": 5332.00927734375,
+          "y": 3075.373046875,
+          "z": 22023.912109375
+        }
+      },
+      "modifiers": [],
+      "steps": 8,
+      "to": {
+        "scene": {
+          "x": 581.2001953124982,
+          "y": 229.10009765625
+        },
+        "volumePoint": {
+          "x": 5335.609375,
+          "y": 3072.673095703125,
+          "z": 22023.912109375
+        }
+      }
+    },
+    "solver": {
+      "consoleTail": [],
+      "externalId": null,
+      "finishedAtMs": 1795851918599,
+      "jobId": "job-3",
+      "kind": "growth.external",
+      "label": "Segmentation growth started",
+      "message": "Segmentation growth finished",
+      "outputPath": null,
+      "progress": null,
+      "progressHistory": [
+        {
+          "jobId": "job-3",
+          "kind": "growth.external",
+          "message": "Segmentation growth started",
+          "phase": "started",
+          "seq": 1,
+          "source": "growth"
+        },
+        {
+          "jobId": "job-3",
+          "kind": "growth.external",
+          "message": "Segmentation growth finished",
+          "phase": "finished",
+          "result": null,
+          "seq": 2,
+          "source": "growth",
+          "success": true
+        }
+      ],
+      "result": null,
+      "source": "growth",
+      "startedAtMs": 1795851918566,
+      "state": "succeeded"
+    },
+    "save": {
+      "consoleTail": [],
+      "externalId": null,
+      "finishedAtMs": 1795851918740,
+      "jobId": "job-4",
+      "kind": "segmentation.save",
+      "label": "Save segment",
+      "message": "Segment save failed",
+      "outputPath": null,
+      "progress": null,
+      "progressHistory": [
+        {
+          "jobId": "job-4",
+          "kind": "segmentation.save",
+          "message": "Save segment",
+          "phase": "started",
+          "seq": 1,
+          "source": "autosave"
+        },
+        {
+          "jobId": "job-4",
+          "kind": "segmentation.save",
+          "message": "Segment save failed",
+          "phase": "finished",
+          "result": null,
+          "seq": 2,
+          "source": "autosave",
+          "success": false
+        }
+      ],
+      "result": null,
+      "source": "autosave",
+      "startedAtMs": 1795851918692,
+      "state": "failed"
+    },
+    "export_error": {
+      "code": -32005,
+      "message": "Pending surface edits could not be saved"
+    },
+    "history_after_export": {
+      "geometry": [
+        [
+          "D1D3991BEE1E43B59C89D46D5A85EB72",
+          "",
+          "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
+          1
+        ],
+        [
+          "DB49DDE230374DB1BC1638E5E53DD16B",
+          "D1D3991BEE1E43B59C89D46D5A85EB72",
+          "0008234269551BD744E992BC95663E7B728B3535FC95260392A0F4A818A52369",
+          2
+        ]
+      ],
+      "owner_version": 4,
+      "corrections": [
+        {
+          "edge_id": "BDA7C5435C4A4DE0879715BFE4763CFA",
+          "edge_version": 1,
+          "collection_id": "BD07945F3E0E49C7884B0F54E7C3C682",
+          "collection_version": 1,
+          "anchor": [
+            43.0,
+            16.0
+          ]
+        }
+      ],
+      "growth_annotations": [
+        {
+          "edge_id": "9FB0E5D9AFB6489084AB3C446EDA406C",
+          "edge_version": 1,
+          "collection_id": "66BE78D07B9041ADAA51A0B0F5D42EBB",
+          "collection_version": 1,
+          "provenance": {
+            "after_geometry": "db49dde2-3037-4db1-bc16-38e5e53dd16b",
+            "before_geometry": "d1d3991b-ee1e-43b5-9c89-d46d5a85eb72",
+            "bounds": {
+              "max": [
+                5591.609375,
+                3328.673095703125,
+                22279.912109375
+              ],
+              "min": [
+                5079.609375,
+                2816.673095703125,
+                21767.912109375
+              ]
+            },
+            "grid_region": [
+              24,
+              0,
+              35,
+              24
+            ],
+            "surface": "fb43f412-4ee6-5092-b65b-170493102487",
+            "volume_used": "20250521151220-8.640um-1.2m-116keV-masked.zarr-84a3d170bf03b388"
+          }
+        }
+      ]
+    },
+    "repeat_save": {
+      "consoleTail": [],
+      "externalId": null,
+      "finishedAtMs": 1795851919024,
+      "jobId": "job-5",
+      "kind": "segmentation.save",
+      "label": "Save segment",
+      "message": "Segment save failed",
+      "outputPath": null,
+      "progress": null,
+      "progressHistory": [
+        {
+          "jobId": "job-5",
+          "kind": "segmentation.save",
+          "message": "Save segment",
+          "phase": "started",
+          "seq": 1,
+          "source": "autosave"
+        },
+        {
+          "jobId": "job-5",
+          "kind": "segmentation.save",
+          "message": "Segment save failed",
+          "phase": "finished",
+          "result": null,
+          "seq": 2,
+          "source": "autosave",
+          "success": false
+        }
+      ],
+      "result": null,
+      "source": "autosave",
+      "startedAtMs": 1795851918970,
+      "state": "failed"
+    },
+    "history_after_repeat_save": {
+      "geometry": [
+        [
+          "D1D3991BEE1E43B59C89D46D5A85EB72",
+          "",
+          "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
+          1
+        ],
+        [
+          "DB49DDE230374DB1BC1638E5E53DD16B",
+          "D1D3991BEE1E43B59C89D46D5A85EB72",
+          "0008234269551BD744E992BC95663E7B728B3535FC95260392A0F4A818A52369",
+          2
+        ]
+      ],
+      "owner_version": 4,
+      "corrections": [
+        {
+          "edge_id": "BDA7C5435C4A4DE0879715BFE4763CFA",
+          "edge_version": 1,
+          "collection_id": "BD07945F3E0E49C7884B0F54E7C3C682",
+          "collection_version": 1,
+          "anchor": [
+            43.0,
+            16.0
+          ]
+        }
+      ],
+      "growth_annotations": [
+        {
+          "edge_id": "9FB0E5D9AFB6489084AB3C446EDA406C",
+          "edge_version": 1,
+          "collection_id": "66BE78D07B9041ADAA51A0B0F5D42EBB",
+          "collection_version": 1,
+          "provenance": {
+            "after_geometry": "db49dde2-3037-4db1-bc16-38e5e53dd16b",
+            "before_geometry": "d1d3991b-ee1e-43b5-9c89-d46d5a85eb72",
+            "bounds": {
+              "max": [
+                5591.609375,
+                3328.673095703125,
+                22279.912109375
+              ],
+              "min": [
+                5079.609375,
+                2816.673095703125,
+                21767.912109375
+              ]
+            },
+            "grid_region": [
+              24,
+              0,
+              35,
+              24
+            ],
+            "surface": "fb43f412-4ee6-5092-b65b-170493102487",
+            "volume_used": "20250521151220-8.640um-1.2m-116keV-masked.zarr-84a3d170bf03b388"
+          }
+        }
+      ]
+    },
+    "reopened_geometry": {
+      "anchor_error_vox": 4.500000000000182,
+      "anchor_motion_vox": 0.0,
+      "seed_changed": 0,
+      "seed_max_motion_vox": 0.0,
+      "vertices_changed": 0
+    },
+    "history_after_reopen": {
+      "geometry": [
+        [
+          "D1D3991BEE1E43B59C89D46D5A85EB72",
+          "",
+          "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
+          1
+        ],
+        [
+          "DB49DDE230374DB1BC1638E5E53DD16B",
+          "D1D3991BEE1E43B59C89D46D5A85EB72",
+          "0008234269551BD744E992BC95663E7B728B3535FC95260392A0F4A818A52369",
+          2
+        ]
+      ],
+      "owner_version": 4,
+      "corrections": [
+        {
+          "edge_id": "BDA7C5435C4A4DE0879715BFE4763CFA",
+          "edge_version": 1,
+          "collection_id": "BD07945F3E0E49C7884B0F54E7C3C682",
+          "collection_version": 1,
+          "anchor": [
+            43.0,
+            16.0
+          ]
+        }
+      ],
+      "growth_annotations": [
+        {
+          "edge_id": "9FB0E5D9AFB6489084AB3C446EDA406C",
+          "edge_version": 1,
+          "collection_id": "66BE78D07B9041ADAA51A0B0F5D42EBB",
+          "collection_version": 1,
+          "provenance": {
+            "after_geometry": "db49dde2-3037-4db1-bc16-38e5e53dd16b",
+            "before_geometry": "d1d3991b-ee1e-43b5-9c89-d46d5a85eb72",
+            "bounds": {
+              "max": [
+                5591.609375,
+                3328.673095703125,
+                22279.912109375
+              ],
+              "min": [
+                5079.609375,
+                2816.673095703125,
+                21767.912109375
+              ]
+            },
+            "grid_region": [
+              24,
+              0,
+              35,
+              24
+            ],
+            "surface": "fb43f412-4ee6-5092-b65b-170493102487",
+            "volume_used": "20250521151220-8.640um-1.2m-116keV-masked.zarr-84a3d170bf03b388"
+          }
+        }
+      ]
+    }
+  },
+  "after_save_fix": {
+    "unmodified_export_equal": true,
+    "drag": {
+      "button": "left",
+      "dragged": true,
+      "from": {
+        "scene": {
+          "x": 574,
+          "y": 234.5
+        },
+        "volumePoint": {
+          "x": 5332.00927734375,
+          "y": 3075.373046875,
+          "z": 22023.912109375
+        }
+      },
+      "modifiers": [],
+      "steps": 8,
+      "to": {
+        "scene": {
+          "x": 581.2001953124982,
+          "y": 229.10009765625
+        },
+        "volumePoint": {
+          "x": 5335.609375,
+          "y": 3072.673095703125,
+          "z": 22023.912109375
+        }
+      }
+    },
+    "solver": {
+      "consoleTail": [],
+      "externalId": null,
+      "finishedAtMs": 1795851921132,
+      "jobId": "job-3",
+      "kind": "growth.external",
+      "label": "Segmentation growth started",
+      "message": "Segmentation growth finished",
+      "outputPath": null,
+      "progress": null,
+      "progressHistory": [
+        {
+          "jobId": "job-3",
+          "kind": "growth.external",
+          "message": "Segmentation growth started",
+          "phase": "started",
+          "seq": 1,
+          "source": "growth"
+        },
+        {
+          "jobId": "job-3",
+          "kind": "growth.external",
+          "message": "Segmentation growth finished",
+          "phase": "finished",
+          "result": null,
+          "seq": 2,
+          "source": "growth",
+          "success": true
+        }
+      ],
+      "result": null,
+      "source": "growth",
+      "startedAtMs": 1795851921111,
+      "state": "succeeded"
+    },
+    "save": {
+      "consoleTail": [],
+      "externalId": null,
+      "finishedAtMs": 1795851921298,
+      "jobId": "job-4",
+      "kind": "segmentation.save",
+      "label": "Save segment",
+      "message": "Segment saved",
+      "outputPath": null,
+      "progress": null,
+      "progressHistory": [
+        {
+          "jobId": "job-4",
+          "kind": "segmentation.save",
+          "message": "Save segment",
+          "phase": "started",
+          "seq": 1,
+          "source": "autosave"
+        },
+        {
+          "jobId": "job-4",
+          "kind": "segmentation.save",
+          "message": "Segment saved",
+          "phase": "finished",
+          "result": null,
+          "seq": 2,
+          "source": "autosave",
+          "success": true
+        }
+      ],
+      "result": null,
+      "source": "autosave",
+      "startedAtMs": 1795851921229,
+      "state": "succeeded"
+    },
+    "export_geometry": {
+      "anchor_error_vox": 4.500000000000182,
+      "anchor_motion_vox": 0.0,
+      "seed_changed": 0,
+      "seed_max_motion_vox": 0.0,
+      "vertices_changed": 0
+    },
+    "history_after_export": {
+      "geometry": [
+        [
+          "B62E03CEBB6F43AE8A6D7AEA441A933B",
+          "",
+          "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
+          1
+        ],
+        [
+          "B2D09A227A37428FA26E07DC677924B0",
+          "B62E03CEBB6F43AE8A6D7AEA441A933B",
+          "0008234269551BD744E992BC95663E7B728B3535FC95260392A0F4A818A52369",
+          2
+        ]
+      ],
+      "owner_version": 4,
+      "corrections": [
+        {
+          "edge_id": "199D115A353745FFB4CE361F330BD70B",
+          "edge_version": 1,
+          "collection_id": "2B4DAFD06B9842A0B44D34DE35D83370",
+          "collection_version": 1,
+          "anchor": [
+            43.0,
+            16.0
+          ]
+        }
+      ],
+      "growth_annotations": [
+        {
+          "edge_id": "908B2197814E4425B71D05083E0F4E48",
+          "edge_version": 1,
+          "collection_id": "D6DF038611FA4C59A908DB77EEEF49B7",
+          "collection_version": 1,
+          "provenance": {
+            "after_geometry": "b2d09a22-7a37-428f-a26e-07dc677924b0",
+            "before_geometry": "b62e03ce-bb6f-43ae-8a6d-7aea441a933b",
+            "bounds": {
+              "max": [
+                5591.609375,
+                3328.673095703125,
+                22279.912109375
+              ],
+              "min": [
+                5079.609375,
+                2816.673095703125,
+                21767.912109375
+              ]
+            },
+            "grid_region": [
+              24,
+              0,
+              35,
+              24
+            ],
+            "surface": "fb43f412-4ee6-5092-b65b-170493102487",
+            "volume_used": "20250521151220-8.640um-1.2m-116keV-masked.zarr-84a3d170bf03b388"
+          }
+        }
+      ]
+    },
+    "repeat_save": {
+      "dirtyAfterSave": false,
+      "jobId": null,
+      "kind": "segmentation.save",
+      "pending": false,
+      "saveInProgress": false,
+      "state": "idle"
+    },
+    "history_after_repeat_save": {
+      "geometry": [
+        [
+          "B62E03CEBB6F43AE8A6D7AEA441A933B",
+          "",
+          "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
+          1
+        ],
+        [
+          "B2D09A227A37428FA26E07DC677924B0",
+          "B62E03CEBB6F43AE8A6D7AEA441A933B",
+          "0008234269551BD744E992BC95663E7B728B3535FC95260392A0F4A818A52369",
+          2
+        ]
+      ],
+      "owner_version": 4,
+      "corrections": [
+        {
+          "edge_id": "199D115A353745FFB4CE361F330BD70B",
+          "edge_version": 1,
+          "collection_id": "2B4DAFD06B9842A0B44D34DE35D83370",
+          "collection_version": 1,
+          "anchor": [
+            43.0,
+            16.0
+          ]
+        }
+      ],
+      "growth_annotations": [
+        {
+          "edge_id": "908B2197814E4425B71D05083E0F4E48",
+          "edge_version": 1,
+          "collection_id": "D6DF038611FA4C59A908DB77EEEF49B7",
+          "collection_version": 1,
+          "provenance": {
+            "after_geometry": "b2d09a22-7a37-428f-a26e-07dc677924b0",
+            "before_geometry": "b62e03ce-bb6f-43ae-8a6d-7aea441a933b",
+            "bounds": {
+              "max": [
+                5591.609375,
+                3328.673095703125,
+                22279.912109375
+              ],
+              "min": [
+                5079.609375,
+                2816.673095703125,
+                21767.912109375
+              ]
+            },
+            "grid_region": [
+              24,
+              0,
+              35,
+              24
+            ],
+            "surface": "fb43f412-4ee6-5092-b65b-170493102487",
+            "volume_used": "20250521151220-8.640um-1.2m-116keV-masked.zarr-84a3d170bf03b388"
+          }
+        }
+      ]
+    },
+    "reopened_geometry": {
+      "anchor_error_vox": 4.500000000000182,
+      "anchor_motion_vox": 0.0,
+      "seed_changed": 0,
+      "seed_max_motion_vox": 0.0,
+      "vertices_changed": 0
+    },
+    "export_matches_reopened": true,
+    "history_after_reopen": {
+      "geometry": [
+        [
+          "B62E03CEBB6F43AE8A6D7AEA441A933B",
+          "",
+          "B6BBDD2B59F58126E50FDFD2DE9DCED28887C75EFE8ED93D9C1694EA1BB20A23",
+          1
+        ],
+        [
+          "B2D09A227A37428FA26E07DC677924B0",
+          "B62E03CEBB6F43AE8A6D7AEA441A933B",
+          "0008234269551BD744E992BC95663E7B728B3535FC95260392A0F4A818A52369",
+          2
+        ]
+      ],
+      "owner_version": 4,
+      "corrections": [
+        {
+          "edge_id": "199D115A353745FFB4CE361F330BD70B",
+          "edge_version": 1,
+          "collection_id": "2B4DAFD06B9842A0B44D34DE35D83370",
+          "collection_version": 1,
+          "anchor": [
+            43.0,
+            16.0
+          ]
+        }
+      ],
+      "growth_annotations": [
+        {
+          "edge_id": "908B2197814E4425B71D05083E0F4E48",
+          "edge_version": 1,
+          "collection_id": "D6DF038611FA4C59A908DB77EEEF49B7",
+          "collection_version": 1,
+          "provenance": {
+            "after_geometry": "b2d09a22-7a37-428f-a26e-07dc677924b0",
+            "before_geometry": "b62e03ce-bb6f-43ae-8a6d-7aea441a933b",
+            "bounds": {
+              "max": [
+                5591.609375,
+                3328.673095703125,
+                22279.912109375
+              ],
+              "min": [
+                5079.609375,
+                2816.673095703125,
+                21767.912109375
+              ]
+            },
+            "grid_region": [
+              24,
+              0,
+              35,
+              24
+            ],
+            "surface": "fb43f412-4ee6-5092-b65b-170493102487",
+            "volume_used": "20250521151220-8.640um-1.2m-116keV-masked.zarr-84a3d170bf03b388"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "public_mesh": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1447/segments/20250502182142-auto_grown_20250502161324419/mesh/20250502182142-on-20250521151220-8.64um.tifxyz/",
+  "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1447/volumes/20250521151220-8.640um-1.2m-116keV-masked.zarr",
+  "row_col": [
+    73,
+    32
+  ],
+  "size": [
+    24,
+    64
+  ],
+  "anchor_column_row": [
+    41,
+    14
+  ],
+  "fixed_xy_offset_vox": [
+    3.6,
+    -2.7,
+    0.0
+  ],
+  "target": [
+    5335.60927734375,
+    3072.673046875,
+    22023.912109375
+  ],
+  "source_sha256": {
+    "meta.json": "fbe5c5bb6b9fb21cc9428efd4d01022c7c98766cbfd5d6d166784db30ff191b2",
+    "x.tif": "470261a4fd685c5b7727f026896a27eefb50011c522bf28cc55642f7fe5929c5",
+    "y.tif": "910a3a8afe800999e314b3b6907cae8a0e2cb15bea7fee42f765c63db68cce50",
+    "z.tif": "78ba0c564abb24bb885140d78a51c9b79e1bacd9e9f907d44963e99e5ce6b38c"
+  }
+}
